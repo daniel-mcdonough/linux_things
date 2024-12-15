@@ -1,0 +1,24 @@
+# Terraform & Terragrunt Aliases
+# Source this file: source ~/path/to/terraform_aliases
+
+# Terraform
+alias tf='terraform'
+alias tfi='terraform init'
+alias tfv='terraform validate'
+alias tp='terraform plan -out PLAN'
+alias tap='terraform apply PLAN'
+alias tfa='terraform apply'
+alias tfd='terraform destroy'
+alias tfo='terraform output'
+alias tfs='terraform state list'
+alias tfsh='terraform show'
+
+# Terragrunt
+alias tg='terragrunt'
+alias tgi='terragrunt init'
+alias tgp='terragrunt plan -out PLAN'
+alias tgap='terragrunt apply PLAN'
+alias tga='terragrunt apply'
+alias tgd='terragrunt destroy'
+alias tgra='terragrunt run-all apply'
+alias tgrp='terragrunt run-all plan'
